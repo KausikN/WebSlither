@@ -79,4 +79,6 @@
 
    - [DinoGame.ws](Examples/DinoGame.ws)
     
-         Opens the classic chrome dino game and plays it by randomly jumping
+         Opens the classic chrome dino game and plays it by jumping every 2 seconds
+
+        ![DinoGame](DocImages/DinoGame.PNG)

@@ -468,3 +468,15 @@ JavaScript error: https://connect.facebook.net/en_US/sdk.js?hash=5e77e0791e01e88
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1621166445678	geckodriver	INFO	Listening on 127.0.0.1:61502
+1621166448710	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\KAUSIK~1\\AppData\\Local\\Temp\\rust_mozprofile69sLRF"
+1621166449110	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621166451236	Marionette	INFO	Listening on port 61513
+1621166451380	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://chromedino.com/js/gdpr.js, line 1: SyntaxError: function statement requires a name
+JavaScript error: https://connect.facebook.net/en_US/sdk.js?hash=5e77e0791e01e88a080656c0c763656c, line 57: uncaught exception: Error: invalid version specified
+1621166488428	Marionette	INFO	Stopped listening on port 61513
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
