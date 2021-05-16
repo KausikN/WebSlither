@@ -24,8 +24,8 @@ driver = FirefoxDriver()
 
 # Goto Website
 googleURL = 'https://www.google.com/'
-driver = gotoURL(driver, googleURL)
-print("Went to", getTitle(driver))
+driver.get(googleURL)
+print("Went to", driver.title)
 
 delay(delayScale)
 

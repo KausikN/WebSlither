@@ -1,7 +1,7 @@
 # Web Slither File - DINO GAME PLAYER
 
 # Main Params
-driver Chrome
+driver Firefox
 dS 1.0
 #
 
@@ -9,14 +9,7 @@ dS 1.0
 goto https://chromedino.com/
 d 2.0
 
-k c interstitial-wrapper __wrapper SPACE
+ - JumperCP
+kb SPACE
 d 2.0
-
-k c runner-container SPACE
-d 2.0
-
-k c runner-container SPACE
-d 2.0
-
-k c runner-container SPACE
-d 2.0
+jump JumperCP

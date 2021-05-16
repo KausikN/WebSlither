@@ -8,9 +8,24 @@
      Parser for reading and decoding web slither files
 
      WebSlither file commands:
+
+     Basic commands:
      
          # {anything}
-         Comment - not considered while decoding 
+         Comment - not considered while decoding
+
+     Execution commands:
+
+          - {checkpointName}
+         checkpoint {checkpointName}
+         cp {checkpointName}
+         Adds a checkpoint of name checkpointName
+
+         jump {checkpointName}
+         j {checkpointName}
+         Jumps the execution to the position of the mentioned checkpointName
+
+     Browser commands:
 
          driver {Firefox/Chrome/Edge/F/C/E}
          d {Firefox/Chrome/Edge/F/C/E}
@@ -27,6 +42,8 @@
          delayA 1.0
          dA 1.0
          Gives a absolute delay of 1.0 seconds without scale 
+    
+     Interaction commands:
 
          goto {link}
          g {link}
@@ -47,6 +64,10 @@
          key i/c/n {id/class/name} {keyName}
          k i/c/n {id/class/name} {keyName}
          Presses the key mentioned in the field
+
+         keybrowser {keyName}
+         kb {keyName}
+         Presses the key mentioned in the browser window
 
      For example webslither files see [Example](Examples/Example.ws)
 

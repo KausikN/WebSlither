@@ -9,6 +9,7 @@ from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
+from selenium.webdriver.common.action_chains import ActionChains
 
 import time
 
@@ -25,13 +26,6 @@ def ChromeDriver():
 
 def EdgeDriver():
     return webdriver.Edge(executable_path="SeleniumDrivers/msedgedriver.exe")
-
-def gotoURL(driver, url):
-    driver.get(url)
-    return driver
-
-def getTitle(driver):
-    return driver.title
 
 def destroyDriver(driver):
     driver.close()

@@ -387,3 +387,84 @@ Line: 567, column: 0
 console.error: ({})
 JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
 1621088059403	Marionette	INFO	Stopped listening on port 59514
+1621163325485	geckodriver	INFO	Listening on 127.0.0.1:60353
+1621163328530	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\KAUSIK~1\\AppData\\Local\\Temp\\rust_mozprofileRRDMSZ"
+1621163345456	geckodriver	INFO	Listening on 127.0.0.1:60413
+1621163348538	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\KAUSIK~1\\AppData\\Local\\Temp\\rust_mozprofileVC9cui"
+1621163349253	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621163352088	Marionette	INFO	Listening on port 60421
+1621163352238	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://chromedino.com/js/gdpr.js, line 1: SyntaxError: function statement requires a name
+JavaScript error: https://connect.facebook.net/en_US/sdk.js?hash=5e77e0791e01e88a080656c0c763656c, line 57: uncaught exception: Error: invalid version specified
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+1621163379614	Marionette	INFO	Stopped listening on port 60421
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1621163407365	geckodriver	INFO	Listening on 127.0.0.1:60532
+1621163410422	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\KAUSIK~1\\AppData\\Local\\Temp\\rust_mozprofileTZlmg5"
+1621163411057	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621163413671	Marionette	INFO	Listening on port 60540
+1621163414145	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://chromedino.com/js/gdpr.js, line 1: SyntaxError: function statement requires a name
+JavaScript error: https://connect.facebook.net/en_US/sdk.js?hash=5e77e0791e01e88a080656c0c763656c, line 57: uncaught exception: Error: invalid version specified
+1621163699088	Marionette	INFO	Stopped listening on port 60540
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1621163898601	geckodriver	INFO	Listening on 127.0.0.1:60737
+1621163901664	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\KAUSIK~1\\AppData\\Local\\Temp\\rust_mozprofile0Xazd9"
+1621163902385	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621163905199	Marionette	INFO	Listening on port 60746
+1621163905363	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://chromedino.com/js/gdpr.js, line 1: SyntaxError: function statement requires a name
+JavaScript error: https://connect.facebook.net/en_US/sdk.js?hash=5e77e0791e01e88a080656c0c763656c, line 57: uncaught exception: Error: invalid version specified
+1621163915447	Marionette	INFO	Stopped listening on port 60746
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1621164233507	geckodriver	INFO	Listening on 127.0.0.1:60879
+1621164236581	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\KAUSIK~1\\AppData\\Local\\Temp\\rust_mozprofilex1JAkV"
+1621164237267	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621164240121	Marionette	INFO	Listening on port 60887
+1621164240289	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://chromedino.com/js/gdpr.js, line 1: SyntaxError: function statement requires a name
+JavaScript error: https://connect.facebook.net/en_US/sdk.js?hash=5e77e0791e01e88a080656c0c763656c, line 57: uncaught exception: Error: invalid version specified
+1621164274613	Marionette	INFO	Stopped listening on port 60887
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1621165839190	geckodriver	INFO	Listening on 127.0.0.1:61195
+1621165842249	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\KAUSIK~1\\AppData\\Local\\Temp\\rust_mozprofile0ZLiTy"
+1621165842903	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621165845702	Marionette	INFO	Listening on port 61203
+1621165845954	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://chromedino.com/js/gdpr.js, line 1: SyntaxError: function statement requires a name
+JavaScript error: https://connect.facebook.net/en_US/sdk.js?hash=5e77e0791e01e88a080656c0c763656c, line 57: uncaught exception: Error: invalid version specified
+1621165865064	Marionette	INFO	Stopped listening on port 61203
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1621165925815	geckodriver	INFO	Listening on 127.0.0.1:61302
+1621165979284	geckodriver	INFO	Listening on 127.0.0.1:61315
+1621165982349	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\KAUSIK~1\\AppData\\Local\\Temp\\rust_mozprofile4JiQUK"
+1621165982781	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621165984823	Marionette	INFO	Listening on port 61325
+1621165985029	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://chromedino.com/js/gdpr.js, line 1: SyntaxError: function statement requires a name
+JavaScript error: https://connect.facebook.net/en_US/sdk.js?hash=5e77e0791e01e88a080656c0c763656c, line 57: uncaught exception: Error: invalid version specified
+1621165997971	Marionette	INFO	Stopped listening on port 61325
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
