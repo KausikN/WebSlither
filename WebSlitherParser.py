@@ -51,6 +51,11 @@ Presses the key mentioned in the field
 keybrowser {keyName}
 kb {keyName}
 Presses the key mentioned in the browser window
+
+
+OTHER PARSINGS
+for a space charecter " ", use "_"
+for "_", use "__"
 '''
 
 # Imports
@@ -103,6 +108,14 @@ COMMAND_MAP = {
 COMMENT_STR = '#'
 
 # Main Parse Functions
+def OtherParsings(data):
+    # Other Parsings
+    # Replace __ with _ and _ with " "
+    data = data.replace("__", "\n")
+    data = data.replace("_", " ")
+    data = data.replace("\n", "_")
+    return data
+
 def GetCommandName(val):
     val = val.strip().lower()
 
@@ -180,6 +193,13 @@ def ParseWebSlitherData(data):
             continue
 
         parsedLine = line.split(' ')
+
+        # if len(parsedLine) > 2:
+        #     parsedLine_OtherParsed = []
+        #     for pL in parsedLine:
+        #         parsedLine_OtherParsed.append(OtherParsings(pL))
+        #     parsedLine = parsedLine_OtherParsed
+
         cmdName = GetCommandName(parsedLine[0])
         cmd = GetCommand(cmdName, parsedLine[1:], curLineIndex)
         commands.append(cmd)
@@ -207,7 +227,7 @@ def RunWebSlitherFile(path=None, data=None):
 
 # Driver Code
 # Params
-webSlitherPath = 'Examples/DinoGame.ws'
+webSlitherPath = 'Examples/WebWhatsapp.ws'
 # Params
 
 # RunCode
